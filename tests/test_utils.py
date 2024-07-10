@@ -6,8 +6,18 @@ from unittest.mock import Mock, mock_open, patch
 import pandas as pd
 import pytest
 
-from src.utils import (filter_transactions_date, geting_csrds, info_cards, read_in_json, read_user_settings_currency,
-                       read_user_settings_stocks, read_xls, setup_logging, top_5_transactions, write_in_json)
+from src.utils import (
+    filter_transactions_date,
+    geting_csrds,
+    info_cards,
+    read_in_json,
+    read_user_settings_currency,
+    read_user_settings_stocks,
+    read_xls,
+    setup_logging,
+    top_5_transactions,
+    write_in_json,
+)
 
 sample_transactions = [
     {
