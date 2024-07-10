@@ -22,7 +22,6 @@ class TestMainViewers(unittest.TestCase):
     @patch("src.views.setup_logging")  # Mock setup_logging to avoid actual logging
     def test_main_viewers(
         self,
-
         mock_setup_logging: Any,
         mock_json_dump: Any,
         mock_open_func: Any,

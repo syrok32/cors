@@ -2,9 +2,20 @@ import json
 import os
 from typing import Any
 
-from src.utils import (api_currency, api_stock, filter_transactions_date, geting_csrds, read_in_json,
-                       read_user_settings_currency, read_user_settings_stocks, read_xls, receive_greeting,
-                       setup_logging, top_5_transactions, write_in_json)
+from src.utils import (
+    api_currency,
+    api_stock,
+    filter_transactions_date,
+    geting_csrds,
+    read_in_json,
+    read_user_settings_currency,
+    read_user_settings_stocks,
+    read_xls,
+    receive_greeting,
+    setup_logging,
+    top_5_transactions,
+    write_in_json,
+)
 
 logger = setup_logging("utils_log.txt")
 
